@@ -1,0 +1,276 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(http://fonts.googleapis.com/css?family=Esteban);
+@import url(http://fonts.googleapis.com/css?family=Courgette);
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Pinyon+Script);
+@import url(http://fonts.googleapis.com/css?family=Homemade+Apple);
+@import url(http://fonts.googleapis.com/css?family=Petit+Formal+Script);
+@import url(http://fonts.googleapis.com/css?family=Akronim);
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+    cursor: url(../imges/curs.png), auto;
+}
+body {
+    height: 600px;
+
+	overflow: hidden;
+
+	margin: 70px 0 50px 0;
+}
+main {
+	float: right;
+
+	padding: 0 55px;
+}
+summary {
+	padding: 0 0 20px 0;
+
+	outline: none;
+	cursor: pointer;
+}
+.summary:hover {
+    background-color: #5f8688;
+    color: #161e3c;
+    
+    
+}
+summary::-webkit-details-marker {
+	display: none;
+}
+figure {
+	padding: 20px 0;
+}
+/*summary:before, summary:after {
+    z-index: -1;
+    width: 118px;
+    height: 20px;
+    position: absolute;
+    content: "";
+    bottom: 164px;
+    left: 741px;
+    max-width: 153px;
+    background: #777;
+    box-shadow: 0 15px 10px #777;
+    transform: rotate(-5deg);
+}
+summary:after {
+    transform: rotate(5deg);
+    left: 790px;
+}*/
+
+.summary {
+    height: 30px;
+
+    color: #e9e9e9;
+    font-family: lobster;
+    font-size: 24px;
+
+    background-color: #1a3277;
+    border-radius: 30px;
+    padding: 10px 0 10px 50px;
+    box-shadow: 5px 10px 49px 7px #797070;
+
+    transition: 4s;
+}
+menu {
+	padding: 0 0 20px 0;
+}
+menuitem {
+	height: 25px;
+    width: 50px;
+
+	font-family: pacifico;
+
+	display: block;
+	padding: 0 50px;
+}
+a {
+	color: #445572;
+	text-decoration: none; 
+
+    cursor: pointer;
+
+    transition: 2s;
+}
+a:hover {
+    padding-left: 20px;
+}
+/*img {
+	height: 140px;
+    width: 200px;
+    
+    position: relative;
+
+    border-radius: 5px;
+}*/
+.first {
+	height: 530px;
+    width: 221px;
+
+    position: relative;
+    top: -35px;
+    left: -256px;
+}
+#img {
+    height: 140px;
+    width: 200px;
+
+    position: absolute;
+
+    border-radius: 10px;
+
+    box-shadow: 5px 2px 49px 7px #797070;
+}
+.div {
+	height: 0;
+	width: 0;    
+}
+.image {
+	height: 100px;
+    width: 100px;
+
+    position: relative;
+    bottom: 50px;
+    right: 150px;
+    
+    transform: rotate(20deg);
+
+    opacity: 0;
+    transition: 11s;
+}
+.image_2 {
+	height: 100px;
+    width: 100px;
+    
+    position: relative;
+    bottom: 105px;
+    right: 240px;
+    
+    transform: rotate(-20deg);
+
+    opacity: 0;
+    transition: 10s;
+}
+.image_3 {
+	height: 100px;
+    width: 100px;
+
+    position: relative;
+    bottom: 115px;
+    right: 150px;
+    
+    transform: rotate(20deg);
+
+    opacity: 0;
+    transition: 9s;
+}
+.image_4 {
+	height: 100px;
+    width: 100px;
+    
+    position: relative;
+    bottom: 165px;
+    right: 240px;
+    
+    transform: rotate(-20deg);
+
+    opacity: 0;
+    transition: 8s;
+}
+.image_5 {
+	height: 100px;
+    width: 100px;
+    
+    position: relative;
+    bottom: 175px;
+    right: 150px;
+    
+    transform: rotate(20deg);
+
+    opacity: 0;
+    transition: 7s;
+}
+.image_6 {
+	height: 100px;
+    width: 100px;
+
+    position: relative;
+    bottom: 225px;
+    right: 240px;
+    
+    transform: rotate(-20deg);
+
+    opacity: 0;
+    transition: 6s;
+}
+.image_7 {
+	height: 100px;
+    width: 100px;
+
+    position: relative;
+    bottom: 235px;
+    right: 150px;
+    
+    transform: rotate(20deg);
+
+    opacity: 0;
+    transition: 4s;
+}
+.image_8 {
+	height: 100px;
+    width: 100px;
+
+    position: relative;
+    bottom: 285px;
+    right: 240px;
+    
+    transform: rotate(-20deg);
+
+    opacity: 0;
+    transition: 2s;
+}
+body:hover .image, body:hover .image_2, body:hover .image_3, body:hover .image_4, body:hover .image_5, body:hover .image_6, body:hover .image_7, body:hover .image_8 {
+    opacity: 1;
+}
+#container {
+    height: 140px;
+    width: 200px;
+
+    position: relative;
+}
+#left {
+    height: 140px;
+    width: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#right {
+    height: 140px;
+    width: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.left {
+    height: 20px;
+    width: 20px;
+
+    position: absolute;
+    top: 60%;
+    left: 0;
+}
+.right {
+    height: 20px;
+    width: 20px;
+
+    position: absolute;
+    top: 60%;
+    right: 0;
+}

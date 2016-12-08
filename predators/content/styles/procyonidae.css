@@ -1,0 +1,100 @@
+@import url(http://fonts.googleapis.com/css?family=Kreon);
+@import url(http://fonts.googleapis.com/css?family=Pinyon+Script);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 700px;
+
+	float: left;
+    overflow: hidden;
+
+	padding: 0 0 0 40px;
+
+    cursor: url(../imges/curs.png), auto;
+}
+main {
+	height: 620px;
+	width: 580px;
+
+    overflow: auto;
+
+    background-color: #e9e9e9;
+    padding: 0 20px;
+    border-radius: 10px;
+    margin: 30px 0 0 0;
+    
+    box-shadow: 5px 2px 49px 7px #797070;  
+}
+q {
+	quotes: "(" ")";
+}
+li {
+	color: #66977e;
+
+	display: list-item;
+	list-style: square;
+}
+details, summary, dir, li {
+	margin: 0 20px;
+}
+summary:after {
+	float: left;
+    content: attr(title);
+	
+	display: list-item;
+	list-style: circle;
+}
+summary {
+	display: block;
+
+	outline: none;
+}
+dir {
+	color: #f26a6a;
+
+	display: list-item;
+    margin: 0 70px;	
+}
+p {
+    color: #f26a6a;
+
+    display: list-item;
+	margin: 0 0 20px 50px;
+	list-style-type: circle;	
+}
+span {
+	color: #999b8c;
+	font-family: palatino linotype;
+}
+details {
+	color: #151991;
+
+	font-family: kreon;
+
+	border-radius: 10px;
+    margin-bottom: 20px;
+}
+.caption {
+	text-decoration: none;
+
+    margin: 10px 0 30px 20px;
+}
+.details {
+	padding: 20px;
+}
+main::-webkit-scrollbar-thumb {
+  width: 30px;
+
+  background-color: #c8c8d7;
+  border-radius: 5px;
+}
+main::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;  
+}
+main::-webkit-scrollbar-track {
+  margin: 30px 0;
+}

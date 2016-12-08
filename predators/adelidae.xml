@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="adelidae.xsl" ?>
+<root>
+  <title>Adelidae</title>
+	<caption>FAMILY <span>ATELIDAE</span></caption>
+	<parent><span>Subfamily</span> Alouattinae
+		<sibling>Genus <span>Alouatta</span>, howler monkeys
+			<child>Alouatta palliata group
+				<branch><span>Coiba Island howler</span>, Alouatta coibensis</branch>
+				<branch><span>Mantled howler</span>, Alouatta palliata</branch>
+				<branch><span>Guatemalan black howler</span>, Alouatta pigra</branch>
+			</child>
+			<child>Alouatta seniculus group
+				<branch><span>Ursine howler</span>, Alouatta arctoidea</branch>
+				<branch><span>Red-handed howler</span>, Alouatta belzebul</branch>
+				<branch><span>Spix's red-handed howler</span>, Alouatta discolor</branch>
+				<branch><span>Brown howler</span>, Alouatta guariba</branch>
+				<branch><span>Juruá red howler</span>, Alouatta juara</branch>
+				<branch><span>Guyanan red howler</span>, Alouatta macconnelli</branch>
+				<branch><span>Amazon black howler</span>, Alouatta nigerrima</branch>
+				<branch><span>Purus red howler</span>, Alouatta puruensis</branch>
+				<branch><span>Bolivian red howler</span>, Alouatta sara</branch>
+				<branch><span>Venezuelan red howler</span>, Alouatta seniculus</branch>
+				<branch><span>Maranhão red-handed howler</span>, Alouatta ululata</branch>
+			</child>
+			<child>Alouatta caraya group
+				<branch><span>Black howler</span>, Alouatta caraya</branch>
+			</child>
+		</sibling>
+	</parent>
+	<parent>Subfamily <span>Atelinae</span>
+		<sibling>Genus <span>Ateles</span>, spider monkeys
+			<child><span>Red-faced spider monkey</span>, Ateles paniscus</child>
+			<child><span>White-fronted spider monkey</span>, Ateles belzebuth</child>
+			<child><span>Peruvian spider monkey</span>, Ateles chamek</child>
+			<child><span>Brown spider monkey</span>, Ateles hybridus</child>
+			<child><span>White-cheeked spider monkey</span>, Ateles marginatus</child>
+			<child><span>Black-headed spider monkey</span>, Ateles fusciceps</child>
+			<child><span>Geoffroy's spider monkey</span>, Ateles geoffroyi</child>
+		</sibling>
+		<sibling>Genus <span>Brachyteles</span>, muriquis (woolly spider monkeys)
+			<child><span>Southern muriqui</span>, Brachyteles arachnoides</child>
+			<child><span>Northern muriqui</span>, Brachyteles hypoxanthus</child>
+		</sibling>
+		<sibling>Genus <span>Lagothrix</span>, woolly monkeys
+			<child><span>Brown woolly monkey</span>, Lagothrix lagotricha</child>
+			<child><span>Gray woolly monkey</span>, Lagothrix cana</child>
+			<child><span>Colombian woolly monkey</span>, Lagothrix lugens</child>
+			<child><span>Silvery woolly monkey</span>, Lagothrix poeppigii</child>
+		</sibling>
+		<sibling>Genus <span>Oreonax</span>
+			<child><span>Yellow-tailed woolly monkey</span>, Oreonax flavicauda</child>
+		</sibling>
+	</parent>			
+</root>

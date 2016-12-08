@@ -1,0 +1,11 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+frameset {
+	overflow: hidden;
+}
+.first_frame, .second_frame {
+    background-image: linear-gradient(-45deg, rgba(175, 194, 195, 0.3) 50%, transparent 50%), linear-gradient(rgba(175, 194, 195, 0.3) 50%, transparent 50%);
+    background-size: 50px 30px;
+}

@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    float: left;
+    overflow: hidden;
+
+    padding: 0 10px 0 40px;
+
+    cursor: url(../imges/curs.png), auto;
+}
+main {
+    margin: 30px 0 30px 0;
+}
+tbody, thead, tfoot {
+    counter-reset: section;
+}
+tr:before {
+    counter-increment: section;
+    content: counter(section) '.';
+    color: #2d5c85;
+}
+thead tr:before, tfoot tr:before {
+    content: ' ';
+}
+table {
+    background-color: #e9e9e9;
+    padding: 0 40px;
+    border-radius: 10px;
+    margin: 20px auto;
+
+    box-shadow: 5px 2px 49px 7px #797070;
+}
+caption {
+    position: relative;
+    bottom: 20px;
+    right: 220px;
+
+    color: #2d5c85;
+
+    caption-side: bottom;
+}
+tr {
+    height: 100px;
+}
+th {
+    width: 65px;
+
+    color: #2d5c85;
+}
+td {
+    padding: 0 5px;
+}
+dl {
+    height: 40px;
+    width: 115px;
+
+    background-color: #dfdcd3;
+}
+dd {
+    color: #e05252;
+}
+dt {
+    color: #2d5c85;
+    float: right;   
+}
+input[type=submit] {
+    height: 25px;
+    width: 70px;
+    position: absolute;
+    left: 8px;
+    top: -13px;
+    background-color: #dfdcd3;
+    border: 1px solid #1a3277;
+    border-radius: 25px;
+    outline: none;
+
+    cursor: pointer;
+}
+input[type=reset] {
+    height: 25px;
+    width: 70px;
+    position: absolute;
+    left: -64px;
+    top: -13px;
+    background-color: #dfdcd3;
+    border: 1px solid #1a3277;
+    border-radius: 25px;
+    outline: none;
+
+    cursor: pointer;
+}
+input[value=Submit], input[value=Reset] {
+    color: #1a3277;
+}
+div {
+    height: 0px;
+    position: relative;
+    bottom: 21px;
+    left: 410px;
+}
+input[type=range]:focus {
+    outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    height: 10px;
+    width: 100%;
+    
+    background: #3071a9;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 2px #797070;
+     
+    cursor: pointer;
+}
+input[type=range]::-webkit-slider-thumb {
+    height: 20px;
+    width: 20px;
+
+    background: #e9e9e9;
+    border: 1px solid #000;
+    border-radius: 15px;
+    box-shadow: 0 0 5px .1px #000;
+    margin-top: -6px;
+
+    -webkit-appearance: none;
+}
+input[type=range] {
+    -webkit-appearance: none;
+}
+.dog {
+    text-decoration: overline;
+}
+.jackal {
+    text-decoration: line-through;
+}
+.vixen {
+    text-decoration: underline;
+}
+.no {
+    float: right;
+}
+.radio {
+    padding: 0 35px;
+}
+.checkbox {
+    margin: 0 40px;
+}
+meter {
+    margin: 0 24px;
+}
+.button {
+    height: 2px;
+}
+
